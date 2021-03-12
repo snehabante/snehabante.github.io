@@ -1,0 +1,72 @@
+.bg-img{
+    background-image: url('bg5.png');
+    background-repeat: no-repeat !important; 
+    /* background-color: aqua; */
+    opacity: 0.9;
+    
+        /* Full height */
+        height: 100vh; 
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-size: cover;
+    }
+    html{
+        scroll-behavior: smooth !important;
+    
+    }
+    
+    .register{
+        border-radius: 15px;
+        height: 40px;
+       background-color: #f5f8fa!important;
+      }
+      label{
+          /* color: rgb(10, 10, 10); */
+          font-weight: 500;
+          color: aquamarine;
+      }
+    
+    .note{
+        text-align: center;
+        height: 80px;
+        color: rgb(17, 15, 15);
+        color: aliceblue;
+        font-weight: bold;
+        /* line-height: 80px; */
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size: 30px;
+
+        
+    }
+    .form-content{
+        padding: 5%;
+        border:  solid rgb(235, 243, 242);
+        margin-bottom: 2%;
+        border-radius: 20px;
+        text-align: left;
+        /* width: 500px; */
+    }
+    .form-control{
+        border-radius: 1.5rem;
+        text-align: left;
+        
+    }
+    .btnSubmit{
+        border: none;
+        border-radius: 5px;
+        padding: 1%;
+        width: 20%;
+        cursor: pointer;
+        background-color: #9edd4c;
+        color: black;
+        text-align: center;
+        font-weight: 700;       
+       
+    }
+    span{
+        color: red;
+    }
+   
+
